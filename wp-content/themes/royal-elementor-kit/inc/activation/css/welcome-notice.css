@@ -1,0 +1,130 @@
+.rek-notice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: none;
+  box-shadow: 0 0 5px rgb(0 0 0 / 0.1);
+  padding: 30px !important;
+}
+
+.rek-notice .welcome-message {
+  max-width: 650px;
+}
+
+.rek-notice .welcome-message h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.rek-notice .welcome-message p {
+  font-size: 14px;
+}
+
+.rek-notice .welcome-message .action-buttons {
+  margin-top: 30px;
+}
+
+.rek-notice .welcome-message .action-buttons a {
+  padding: 7px 20px;
+  background-color: #6A4BFF;
+  box-shadow: none !important;
+}
+
+.rek-notice .welcome-message .action-buttons a:hover {
+  background-color: #583ed7;
+}
+
+.rek-notice .welcome-message .action-buttons a .dashicons {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.rek-notice .image-wrap {
+  text-align: right;
+}
+
+.rek-notice .image-wrap img {
+  display: inline-block;
+}
+
+@media screen and (max-width: 1366px) {
+    .rek-notice .image-wrap img {
+      max-width: 90%;
+    }
+
+  .rek-notice .welcome-message p {
+    font-size: 13px;
+  }
+}
+
+.dot-flashing {
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #3c434a;
+  color: #3c434a;
+  -webkit-animation: dotFlashing 1s infinite linear alternate;
+          animation: dotFlashing 1s infinite linear alternate;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.dot-flashing::before, .dot-flashing::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-flashing::before {
+  left: -6px;
+  width: 3px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #3c434a;
+  color: #3c434a;
+  -webkit-animation: dotFlashing 1s infinite alternate;
+          animation: dotFlashing 1s infinite alternate;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.dot-flashing::after {
+  left: 6px;
+  width: 3px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #3c434a;
+  color: #3c434a;
+  -webkit-animation: dotFlashing 1s infinite alternate;
+          animation: dotFlashing 1s infinite alternate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes dotFlashing {
+  0% {
+    background-color: #3c434a;
+  }
+  50%,
+  100% {
+    background-color: #ebe6ff;
+  }
+}
+
+@keyframes dotFlashing {
+  0% {
+    background-color: #3c434a;
+  }
+  50%,
+  100% {
+    background-color: #ebe6ff;
+  }
+}

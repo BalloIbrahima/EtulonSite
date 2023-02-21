@@ -1,0 +1,1329 @@
+# Copyright (C) 2022 Templately
+# This file is distributed under the same license as the Templately plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Templately 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templately\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-03T09:20:58+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: templately\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: includes/Core/Admin.php:234
+#: includes/Core/Platform/Gutenberg.php:80
+#: views/header.php:7
+#: assets/js/elementor.js:1
+#: assets/js/elementor.js:2167
+msgid "Templately"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://templately.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "The Best Templates Cloud for Elementor & Gutenberg. Get access to stunning templates, WorkSpace, Cloud Library & many more."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://templately.com/"
+msgstr ""
+
+#: includes/API/API.php:148
+msgid "Sorry, you need to login/re-login again."
+msgstr ""
+
+#: includes/API/Dependencies.php:24
+msgid "Sorry, you do not have permission to install a plugin."
+msgstr ""
+
+#: includes/API/Dependencies.php:82
+#: includes/Core/Admin.php:236
+#: assets/js/templately.js:1
+#: assets/js/templately.js:14972
+msgid "Elementor"
+msgstr ""
+
+#: includes/API/Dependencies.php:109
+msgid "You have the plugin installed."
+msgstr ""
+
+#: includes/API/Import.php:26
+#: includes/API/Import.php:144
+#: includes/API/Import.php:156
+msgid "Invalid ID is provided."
+msgstr ""
+
+#: includes/API/Import.php:50
+msgid "Template data is invalid. Please kindly contact Templately Support."
+msgstr ""
+
+#: includes/API/Items.php:135
+msgid "Items slug cannot be empty."
+msgstr ""
+
+#: includes/API/Items.php:157
+msgid "Item data not found"
+msgstr ""
+
+#: includes/API/Items.php:174
+msgid "Search keyword cannot be empty."
+msgstr ""
+
+#: includes/API/Items.php:269
+msgid "Unfavourite Action Failed: Something went wrong."
+msgstr ""
+
+#: includes/API/Login.php:41
+msgid "API Key field cannot be empty."
+msgstr ""
+
+#: includes/API/Login.php:48
+#: includes/API/SignUp.php:40
+msgid "Make sure you have given a valid email address."
+msgstr ""
+
+#: includes/API/Login.php:52
+msgid "Password field cannot be empty."
+msgstr ""
+
+#: includes/API/Login.php:127
+msgid "Logged out."
+msgstr ""
+
+#: includes/API/MyClouds.php:175
+msgid "Invalid Item ID for download cloud item."
+msgstr ""
+
+#: includes/API/MyClouds.php:233
+msgid "Invalid Item ID for delete cloud item."
+msgstr ""
+
+#: includes/API/SignUp.php:31
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20329
+msgid "First name cannot be empty."
+msgstr ""
+
+#: includes/API/SignUp.php:34
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20335
+msgid "Last name cannot be empty."
+msgstr ""
+
+#: includes/API/SignUp.php:37
+msgid "Email cannot be empty."
+msgstr ""
+
+#: includes/API/SignUp.php:43
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20338
+msgid "Password cannot be empty."
+msgstr ""
+
+#: includes/API/SignUp.php:46
+msgid "Confirm password cannot be empty."
+msgstr ""
+
+#: includes/API/SignUp.php:50
+msgid "Password and confirm password should be matched."
+msgstr ""
+
+#: includes/API/WorkSpaces.php:32
+msgid "Sorry, you need to login/re-login to get your workspace list."
+msgstr ""
+
+#: includes/API/WorkSpaces.php:76
+msgid "Invalid workspace slug for get workspace."
+msgstr ""
+
+#: includes/API/WorkSpaces.php:113
+msgid "The workspace you looking for is not exists anymore."
+msgstr ""
+
+#: includes/API/WorkSpaces.php:133
+msgid "Workspace name cannot be empty."
+msgstr ""
+
+#: includes/API/WorkSpaces.php:212
+msgid "You should provide a valid WorkSpace ID."
+msgstr ""
+
+#: includes/API/WorkSpaces.php:240
+msgid "Invalid Workspace ID."
+msgstr ""
+
+#: includes/API/WorkSpaces.php:244
+msgid "Invalid Files ID."
+msgstr ""
+
+#: includes/API/WorkSpaces.php:264
+msgid "Invalid item id for get cloud item."
+msgstr ""
+
+#: includes/API/WorkSpaces.php:292
+msgid "Invalid item id for delete cloud item."
+msgstr ""
+
+#: includes/Core/Admin.php:119
+msgid "Hi, %s 👋 You have saved %s in MyCloud so far ☁️ If you are enjoying <strong>Templately</strong>, would you mind taking a few seconds to give us a <strong>5-star</strong> rating on WordPress?"
+msgstr ""
+
+#: includes/Core/Admin.php:121
+msgid "item"
+msgid_plural "items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Core/Admin.php:131
+msgid "Sure, you deserve it!"
+msgstr ""
+
+#: includes/Core/Admin.php:135
+msgid "I already did"
+msgstr ""
+
+#: includes/Core/Admin.php:142
+msgid "Maybe Later"
+msgstr ""
+
+#: includes/Core/Admin.php:151
+msgid "I need help"
+msgstr ""
+
+#: includes/Core/Admin.php:155
+msgid "Never show again"
+msgstr ""
+
+#: includes/Core/Admin.php:235
+msgid "requires"
+msgstr ""
+
+#: includes/Core/Admin.php:237
+msgid "plugin to be installed and activated. Please install Elementor to continue."
+msgstr ""
+
+#: includes/Core/Platform/Elementor.php:180
+msgid "Successfully Deleted."
+msgstr ""
+
+#: includes/Core/Platform/Elementor.php:186
+msgid "Something must went wrong."
+msgstr ""
+
+#: includes/Core/Platform/Gutenberg.php:84
+msgid "Save %s in Templately"
+msgstr ""
+
+#: includes/Plugin.php:70
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: includes/Plugin.php:79
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/Utils/Base.php:31
+#: includes/Utils/Base.php:42
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9407
+#: assets/js/templately.js:9859
+#: assets/js/templately.js:19212
+#: assets/js/templately.js:19768
+#: assets/js/templately.js:20436
+#: assets/js/templately.js:20656
+#: assets/js/templately.js:20685
+msgid "Something went wrong."
+msgstr ""
+
+#: views/header.php:10
+msgid "Version"
+msgstr ""
+
+#: assets/js/elementor.js:1
+#: assets/js/elementor.js:2186
+#: assets/js/elementor.js:2206
+msgid "Save Page in Templately"
+msgstr ""
+
+#: assets/js/elementor.js:1
+#: assets/js/elementor.js:2232
+msgid "Save Block in Templately"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20313
+msgid "Please insert a valid email address."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20323
+msgid "Please provide a valid API Key."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20344
+msgid "Password must contain at least 8 characters, uppercase, lowercase and numbers."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20356
+msgid "Confirm password should be matched with your given password."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20364
+msgid "Opps...!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:14349
+msgid "Type and hit enter..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20657
+msgid "Something went wrong regarding changes in your WorkSpace. Try Later or Contact support."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20663
+msgid "Successfully Saved"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20664
+msgid "You have succesfully saved your WorkSpace changes."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20686
+msgid "Something went wrong regarding deleting your WorkSpace. Try Later or Contact Support."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20693
+msgid "Successfully Deleted"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20694
+msgid "You have deleted a WorkSpace from your account."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20717
+msgid "Edit"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9015
+#: assets/js/templately.js:9071
+#: assets/js/templately.js:19880
+#: assets/js/templately.js:20507
+#: assets/js/templately.js:20724
+msgid "Delete"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11763
+msgid "Force Delete"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11765
+msgid "Keep my settings"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:12273
+msgid "Import this template to your library to make it available in your Elementor Saved Templates(opens in a new tab) list for future use."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:12283
+msgid "Import to Library"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:12232
+msgid "Create a new page from this template to make it available as a draft page in your pages list."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:12240
+msgid "Type a title here..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:12246
+msgid "Create a Page"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11629
+#: assets/js/templately.js:12019
+msgid "Importing..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11630
+#: assets/js/templately.js:12020
+msgid "Your chosen template is being imported right now, please do not refresh or close this tab."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:12152
+msgid "Installing..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:12167
+msgid "Retry & Proceed to Import"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:12175
+msgid "Success"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:12081
+msgid "Ignored"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11836
+msgid "Required Dependencies"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11838
+msgid "To import this item you need to install all the Plugin(s) listed below:"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8626
+#: assets/js/templately.js:9037
+#: assets/js/templately.js:11902
+msgid "Note"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11905
+msgid "Make sure you have manually installed & activated the <em><strong>%s</strong></em> listed above"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11909
+msgid "Pro Plugin"
+msgid_plural "Pro Plugin's"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9007
+#: assets/js/templately.js:9063
+#: assets/js/templately.js:11920
+msgid "Cancel"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11926
+msgid "Install & Proceed to Import"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11641
+msgid "Checking..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11642
+msgid "Checking template dependencies are installed or not..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11692
+msgid "Importing failed."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11696
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11710
+msgid "Imported successfully!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11712
+msgid "You can now edit or preview the template or, you can push it to Templately Cloud to share with your team."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11723
+msgid "Edit Template"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11730
+msgid "Edit Template with Elementor"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11736
+msgid "View Template"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8994
+#: assets/js/templately.js:9035
+msgid "Are You Sure?"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9038
+msgid "The WorkSpace will be permanently deleted."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9052
+msgid "Want To Delete Files Too?"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8921
+msgid "Type workspace title here..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8937
+#: assets/js/templately.js:9330
+msgid "Add People"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8952
+#: assets/js/templately.js:9345
+msgid "Type email to add"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8963
+#: assets/js/templately.js:9356
+msgid "Add"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8974
+msgid "Create Workspace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7743
+#: assets/js/templately.js:8722
+#: assets/js/templately.js:9812
+#: assets/js/templately.js:13223
+#: assets/js/templately.js:15436
+msgid "My WorkSpace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7749
+#: assets/js/templately.js:8728
+#: assets/js/templately.js:9818
+msgid "Shared WorkSpace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8776
+msgid "%s to WorkSpace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8776
+#: assets/js/templately.js:8808
+msgid "Copy"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8776
+#: assets/js/templately.js:8808
+msgid "Move"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8779
+msgid "Item Name"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8788
+msgid "Copy to"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8788
+msgid "Move to"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8794
+msgid "Select WorkSpace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8795
+msgid "No WorkSpace Found"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8996
+msgid "You want to delete the file from your cloud."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7736
+#: assets/js/templately.js:8428
+#: assets/js/templately.js:8435
+#: assets/js/templately.js:15377
+#: assets/js/templately.js:15432
+#: assets/js/templately.js:15449
+msgid "My Clouds"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8439
+msgid "My Workspaces"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8443
+msgid "Shared Workspaces"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8545
+msgid "Add Template to WorkSpace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8548
+msgid "Select Source"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8556
+msgid "Select a source"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8558
+msgid "No Sources Found"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8570
+msgid "Select Workspace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8578
+msgid "Select a workspace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8581
+msgid "No %s Found"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8583
+msgid "Workspace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8584
+msgid "Shared Workspace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8599
+msgid "Select Templates"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8609
+msgid "Search by typing..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8614
+msgid "No Templates Found"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8617
+msgid "Loading templates..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8627
+msgid "You are seeing fewer items after initial load. You can search more to find your desire templates from the selected source."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8643
+msgid "Add to WorkSpace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9158
+msgid "invited"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9318
+msgid "Shared with"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9367
+msgid "Save Changes"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:19742
+msgid "Download Failed!!!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:19746
+msgid "Successfully Downloaded!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:19778
+msgid "Successfully Copied"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:19782
+msgid "Your file has been copied to a WorkSpace called: "
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:19786
+msgid "Your file has been moved to a WorkSpace called: "
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:19815
+msgid "Something went wrong!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:19820
+msgid "Successfully Deleted!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7595
+#: assets/js/templately.js:10776
+#: assets/js/templately.js:10782
+#: assets/js/templately.js:10975
+#: assets/js/templately.js:19854
+#: assets/js/templately.js:20472
+msgid "Insert"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:19861
+msgid "Download"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:19867
+msgid "Copy to WorkSpace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:19873
+msgid "Move to WorkSpace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20440
+msgid "Successfully Pushed"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20443
+msgid "Your file has been pushed successfully to your cloud store."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20480
+msgid "Preview"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20488
+msgid "Push To Cloud"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:20501
+msgid "Export"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11481
+#: assets/js/templately.js:12692
+#: assets/js/templately.js:13022
+msgid "Pro"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11481
+#: assets/js/templately.js:12685
+#: assets/js/templately.js:13017
+msgid "Starter"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:10750
+msgid "Average Rating"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:10756
+msgid "Not Rated"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:10762
+#: assets/js/templately.js:11410
+msgid "Added to Favourite"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:10763
+#: assets/js/templately.js:11411
+msgid "Add to Favourite"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:10775
+msgid "Total Download"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:10282
+msgid "1"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:10289
+#: assets/js/templately.js:10314
+msgid "..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9459
+#: assets/js/templately.js:10160
+msgid "Your account is not verified. Please check your email inbox and verify your Templately account."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13216
+#: assets/js/templately.js:15891
+msgid "My Cloud"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13229
+#: assets/js/templately.js:15440
+msgid "Shared with Me"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13235
+#: assets/js/templately.js:14920
+#: assets/js/templately.js:15424
+msgid "My Favourites"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13241
+#: assets/js/templately.js:14930
+#: assets/js/templately.js:15428
+msgid "My Downloads"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13378
+msgid "Unlimited"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13283
+msgid "You are using %d%% of your storage quota"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13298
+msgid "Your storage quota is runing out. Please upgrade your plan to upload more files."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13311
+msgid "You have reached your limit of files. Please upgrade your plan to upload more files."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13335
+msgid "My Cloud Status"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13102
+#: assets/js/templately.js:13339
+msgid "You haven't verify your account yet. Please check your email inbox."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13357
+msgid "%d of %s files"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11197
+#: assets/js/templately.js:12629
+#: assets/js/templately.js:12678
+#: assets/js/templately.js:12990
+#: assets/js/templately.js:13012
+#: assets/js/templately.js:13488
+#: assets/js/templately.js:13928
+msgid "All"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13831
+msgid "Filter Items by Tags"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13835
+msgid "Write a keyword..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13761
+msgid "Filter"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13771
+msgid "Reset"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13655
+msgid "Pro Plugins Dependencies"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13678
+msgid "Free Plugins Dependencies"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13407
+msgid "Categories"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13415
+msgid "Types"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9863
+msgid "Successfully Added!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9864
+msgid "Your file has been added to this workspace."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9897
+msgid "My Files"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9902
+msgid "Current Workspace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7932
+#: assets/js/templately.js:9908
+msgid "Loading workspace and shared workspaces list."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9399
+msgid "Add New Workspace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9408
+msgid "Something went wrong while creating workspace for you. Try Later or Contact support."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9414
+msgid "Successfully Created"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:9419
+msgid "You have created a WorkSpace called"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8193
+msgid "Shared with:"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7163
+#: assets/js/templately.js:7381
+#: assets/js/templately.js:13093
+msgid "Email"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13096
+msgid "Joining Date"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13116
+#: assets/js/templately.js:14909
+msgid "Manage Account"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13124
+#: assets/js/templately.js:14777
+msgid "Link My Account"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13142
+#: assets/js/templately.js:14808
+msgid "Unlink My Account"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13143
+#: assets/js/templately.js:14809
+msgid "Logout"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11206
+#: assets/js/templately.js:12995
+#: assets/js/templately.js:15849
+#: assets/js/templately.js:15866
+msgid "Blocks"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11217
+#: assets/js/templately.js:13000
+#: assets/js/templately.js:15857
+msgid "Pages"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:13005
+#: assets/js/templately.js:15874
+msgid "Packs"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7833
+#: assets/js/templately.js:7887
+msgid "Something must went wrong!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7850
+msgid "Uploading..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7851
+msgid "Your template content is being pushed into Templately Cloud. Please do not refresh or close this tab."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7868
+msgid "Successfully Pushed!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7869
+msgid "Your template is successfully pushed to your desire cloud folder. You will be redirected there."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7911
+msgid "Save your templates and push to cloud"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7916
+msgid "Type a name for the template..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7925
+msgid "Select "
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7943
+msgid "Save & Push"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7999
+msgid "Add New WorkSpace"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8010
+msgid "No shared workspaces yet."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:8011
+msgid "You do not have any workspaces."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7122
+msgid "Logged In Failed"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7136
+msgid "Great to have you back!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7138
+msgid "Connect via API"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7139
+msgid "Connect via Login Credentials"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7146
+msgid "API Key"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7175
+#: assets/js/templately.js:7394
+msgid "Password"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7202
+msgid "Global Sign In"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7206
+msgid "All the sitewide users will be logged in with this Templately account"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:6906
+#: assets/js/templately.js:7218
+msgid "Sign In"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7219
+msgid "Signing In..."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7223
+msgid "New here?"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7225
+msgid "Create an account!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7231
+msgid "Forgot Password?"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7353
+msgid "Create Account!"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7357
+msgid "First Name"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7368
+msgid "Last Name"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7406
+msgid "Confirm Password"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7431
+#: assets/js/templately.js:7455
+msgid "I agree to the Templately"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7435
+msgid "Privacy Policy"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7459
+msgid "Terms of Services"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:6913
+#: assets/js/templately.js:7469
+msgid "Sign Up"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:7474
+msgid "Already have an account?"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:6878
+msgid "2500+ Stunning Templates for WordPress"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:6884
+msgid "From multipurpose themes to niche templates, you’ll always find something that catches your eye."
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11438
+msgid "Tags"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:10836
+#: assets/js/templately.js:11226
+msgid "Live Demo"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:10829
+msgid "Screenshots"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11361
+msgid "Template Type"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11376
+msgid "Category"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11384
+msgid "Item Parent"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11396
+msgid "Dependency"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:11039
+msgid "Layouts In This Pack"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:10920
+msgid "Featured Items"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:14686
+msgid "Back to Library"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:15882
+msgid "Templates"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:14983
+msgid "Gutenberg"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:15420
+msgid "Profile"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:15444
+msgid "Save your template"
+msgstr ""
+
+#: assets/js/templately.js:1
+#: assets/js/templately.js:6836
+#: assets/js/templately.js:15694
+msgid "You are looking for: %s"
+msgstr ""
